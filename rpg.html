@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalha Ben 10</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Selecione seu Alien</h2>
+
+    <label for="s">Digite um número de 0 a 4:</label>
+    <input type="number" id="s" min="0" max="4">
+
+    <button onclick="iniciaBatalha()">Iniciar Batalha</button>
+    <button onclick="dano()">Causar Dano</button>
+
+    <div class="stats">
+      <h3>Status do Alien:</h3>
+      <span><strong>Nome:</strong> <span id="nome">-</span></span>
+      <span><strong>Vida:</strong> <span id="vida">-</span></span>
+      <span><strong>Ataque:</strong> <span id="ataque">-</span></span>
+      <span><strong>Defesa:</strong> <span id="defesa">-</span></span>
+      <span><strong>Velocidade:</strong> <span id="velocidade">-</span></span>
+    </div>
+  </div>
+<script src="sistemaRPG.js"></script>
+</html>

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #0b0b0b;
+    color: white;
+}
+.container {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+label,
+input,
+button {
+    display: block;
+    margin: 10px 0;
+}
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.stats span {
+    display: block;
+    margin: 5px 0;
+}
