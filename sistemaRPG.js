@@ -107,7 +107,7 @@ function exibirAliensRecebidos() {
 
     aliensDesbloqueados.forEach((alien, index) => {
         const item = document.createElement("li");
-        item.textContent = `${alien.nome} - Vida: ${alien.vida} - Ataque: ${alien.ataque} - Raridade: ${alien.raridade}`;
+        item.textContent = `${alien.nome} - Vida: ${alien.vida} - Ataque: ${alien.ataque} - Defesa: ${alien.defesa} - Velocidade: ${alien.velocidade} Raridade: ${alien.raridade}`;
         lista.appendChild(item);
     });
 }
