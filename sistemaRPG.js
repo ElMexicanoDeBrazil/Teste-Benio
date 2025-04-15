@@ -70,30 +70,30 @@ for (let i = 0; i < 5; i++) {
     let a = Math.floor(Math.random() * 1000);
     let index;
 
-    if (a >= 0 && a <= 599 && comuns.length > 0) {
-        index = Math.floor(Math.random() * comuns.length);
+    if (a >= 0 && a <= 599 && OScomuns.length > 0) {
+        index = Math.floor(Math.random() * OScomuns.length);
         aliensDesbloqueados.push(OScomuns[index]);
-        comuns.splice(index, 1);
+        OScomuns.splice(index, 1);
     } 
-    else if (a >= 600 && a <= 799 && raros.length > 0) {
-        index = Math.floor(Math.random() * raros.length);
+    else if (a >= 600 && a <= 799 && OSraros.length > 0) {
+        index = Math.floor(Math.random() * OSraros.length);
         aliensDesbloqueados.push(OSraros[index]);
-        raros.splice(index, 1);
+        OSraros.splice(index, 1);
     } 
-    else if (a >= 800 && a <= 899 && epicos.length > 0) {
-        index = Math.floor(Math.random() * epicos.length);
+    else if (a >= 800 && a <= 899 && OSepicos.length > 0) {
+        index = Math.floor(Math.random() * OSepicos.length);
         aliensDesbloqueados.push(OSepicos[index]);
-        epicos.splice(index, 1);
+        OSepicos.splice(index, 1);
     } 
-    else if (a >= 900 && a <= 989 && lendarios.length > 0) {
-        index = Math.floor(Math.random() * lendarios.length);
+    else if (a >= 900 && a <= 989 && OSlendarios.length > 0) {
+        index = Math.floor(Math.random() * OSlendarios.length);
         aliensDesbloqueados.push(OSlendarios[index]);
-        lendarios.splice(index, 1);
+        OSlendarios.splice(index, 1);
     } 
-    else if (a >= 990 && a <= 999 && miticos.length > 0) {
-        index = Math.floor(Math.random() * miticos.length);
+    else if (a >= 990 && a <= 999 && OSmiticos.length > 0) {
+        index = Math.floor(Math.random() * OSmiticos.length);
         aliensDesbloqueados.push(OSmiticos[index]);
-        miticos.splice(index, 1);
+        OSmiticos.splice(index, 1);
     } 
     else {
         i--;
