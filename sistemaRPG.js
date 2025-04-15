@@ -72,27 +72,27 @@ for (let i = 0; i < 5; i++) {
 
     if (a >= 0 && a <= 599 && comuns.length > 0) {
         index = Math.floor(Math.random() * comuns.length);
-        aliensDesbloqueados.push(comuns[index]);
+        aliensDesbloqueados.push(OScomuns[index]);
         comuns.splice(index, 1);
     } 
     else if (a >= 600 && a <= 799 && raros.length > 0) {
         index = Math.floor(Math.random() * raros.length);
-        aliensDesbloqueados.push(raros[index]);
+        aliensDesbloqueados.push(OSraros[index]);
         raros.splice(index, 1);
     } 
     else if (a >= 800 && a <= 899 && epicos.length > 0) {
         index = Math.floor(Math.random() * epicos.length);
-        aliensDesbloqueados.push(epicos[index]);
+        aliensDesbloqueados.push(OSepicos[index]);
         epicos.splice(index, 1);
     } 
     else if (a >= 900 && a <= 989 && lendarios.length > 0) {
         index = Math.floor(Math.random() * lendarios.length);
-        aliensDesbloqueados.push(lendarios[index]);
+        aliensDesbloqueados.push(OSlendarios[index]);
         lendarios.splice(index, 1);
     } 
     else if (a >= 990 && a <= 999 && miticos.length > 0) {
         index = Math.floor(Math.random() * miticos.length);
-        aliensDesbloqueados.push(miticos[index]);
+        aliensDesbloqueados.push(OSmiticos[index]);
         miticos.splice(index, 1);
     } 
     else {
