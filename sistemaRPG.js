@@ -39,30 +39,30 @@ const comuns = [
 let aliensDesbloqueados = [];
 
 for (let i = 0; i < 5; i++) {
-    let a = Math.floor(Math.random() * 200);
+    let a = Math.floor(Math.random() * 999);
     let index;
 
-    if (a >= 0 && a <= 99 && comuns.length > 0) {
+    if (a >= 0 && a <= 599 && comuns.length > 0) {
         index = Math.floor(Math.random() * comuns.length);
         aliensDesbloqueados.push(comuns[index]);
         comuns.splice(index, 1);
     } 
-    else if (a >= 100 && a <= 159 && raros.length > 0) {
+    else if (a >= 600 && a <= 799 && raros.length > 0) {
         index = Math.floor(Math.random() * raros.length);
         aliensDesbloqueados.push(raros[index]);
         raros.splice(index, 1);
     } 
-    else if (a >= 160 && a <= 184 && epicos.length > 0) {
+    else if (a >= 800 && a <= 899 && epicos.length > 0) {
         index = Math.floor(Math.random() * epicos.length);
         aliensDesbloqueados.push(epicos[index]);
         epicos.splice(index, 1);
     } 
-    else if (a >= 185 && a <= 194 && lendarios.length > 0) {
+    else if (a >= 900 && a <= 989 && lendarios.length > 0) {
         index = Math.floor(Math.random() * lendarios.length);
         aliensDesbloqueados.push(lendarios[index]);
         lendarios.splice(index, 1);
     } 
-    else if (a >= 195 && a <= 199 && miticos.length > 0) {
+    else if (a >= 990 && a <= 999 && miticos.length > 0) {
         index = Math.floor(Math.random() * miticos.length);
         aliensDesbloqueados.push(miticos[index]);
         miticos.splice(index, 1);
